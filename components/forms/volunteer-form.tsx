@@ -61,7 +61,7 @@ export function VolunteerForm() {
                     <input
                         {...form.register("fullName")}
                         className="flex h-12 w-full rounded-xl bg-slate-800 px-4 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 transition-all text-white border-0"
-                        placeholder="John Doe"
+                        placeholder="Chiemeka Doe"
                     />
                     {form.formState.errors.fullName && <p className="text-sm text-red-500">{form.formState.errors.fullName.message}</p>}
                 </div>
@@ -72,7 +72,7 @@ export function VolunteerForm() {
                         type="email"
                         {...form.register("email")}
                         className="flex h-12 w-full rounded-xl bg-slate-800 px-4 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 transition-all text-white border-0"
-                        placeholder="john@example.com"
+                        placeholder="chiemeka@example.com"
                     />
                     {form.formState.errors.email && <p className="text-sm text-red-500">{form.formState.errors.email.message}</p>}
                 </div>

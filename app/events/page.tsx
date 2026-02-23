@@ -6,10 +6,10 @@ export default function EventsPage() {
         <div className="bg-gray-50 py-16 sm:py-24">
             <Container>
                 <div className="text-center mb-16">
-                    <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl font-heading">
+                    <h1 className="text-4xl font-extrabold tracking-tight text-black dark:text-white sm:text-5xl font-heading">
                         Events & Workshops
                     </h1>
-                    <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500 dark:text-gray-400">
+                    <p className="mt-4 max-w-2xl mx-auto text-xl text-black dark:text-gray-400">
                         Join us to learn, connect, and support the cause.
                     </p>
                 </div>

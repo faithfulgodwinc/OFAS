@@ -59,12 +59,12 @@ export function EventRegistrationForm() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                     <label className="text-sm font-semibold text-white">Full Name</label>
-                    <input {...form.register("fullName")} className="flex h-12 w-full rounded-xl bg-slate-800 px-4 py-2 text-sm ring-offset-background placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 transition-all text-white border-0" placeholder="John Doe" />
+                    <input {...form.register("fullName")} className="flex h-12 w-full rounded-xl bg-slate-800 px-4 py-2 text-sm ring-offset-background placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 transition-all text-white border-0" placeholder="Chiemeka Doe" />
                     {form.formState.errors.fullName && <p className="text-sm text-red-500">{form.formState.errors.fullName.message}</p>}
                 </div>
                 <div className="space-y-2">
                     <label className="text-sm font-semibold text-white">Email</label>
-                    <input type="email" {...form.register("email")} className="flex h-12 w-full rounded-xl bg-slate-800 px-4 py-2 text-sm ring-offset-background placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 transition-all text-white border-0" placeholder="john@example.com" />
+                    <input type="email" {...form.register("email")} className="flex h-12 w-full rounded-xl bg-slate-800 px-4 py-2 text-sm ring-offset-background placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 transition-all text-white border-0" placeholder="chiemeka@example.com" />
                     {form.formState.errors.email && <p className="text-sm text-red-500">{form.formState.errors.email.message}</p>}
                 </div>
             </div>
