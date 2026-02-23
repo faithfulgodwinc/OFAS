@@ -13,10 +13,10 @@ export default function CampusRepApplyPage() {
                     </Link>
                 </div>
                 <div className="text-center mb-16">
-                    <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl font-heading">
+                    <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl font-heading">
                         Apply to Start a Chapter
                     </h1>
-                    <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
+                    <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500 dark:text-gray-400">
                         Help us bring asthma awareness and support to your campus.
                     </p>
                 </div>
