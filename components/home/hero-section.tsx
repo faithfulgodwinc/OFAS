@@ -5,7 +5,7 @@ import { HeroInhaler3D } from "./hero-inhaler-3d";
 
 export function HeroSection() {
     return (
-        <div className="relative overflow-hidden lg:min-h-[800px] flex items-center">
+        <div className="relative overflow-hidden lg:min-h-[800px] flex flex-col lg:flex-row items-center">
             <Container className="w-full">
                 <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 pt-16 sm:pt-20 lg:pt-0 flex flex-col justify-center min-h-full">
                     <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full">
